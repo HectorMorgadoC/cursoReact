@@ -1,0 +1,20 @@
+prueba tecnica de juniors y trainees de react live coding
+
+APIs:
+facts ramdon : https://catfact.ninja.fact
+imagen ramdon : https://cataas.com/cat/says/hello
+
+recupera un hecho aleatorio de gatos y muestra una imagen de gato con la 
+primera palabra de hecho
+
+- crear un proyecto react pero que el punto de entrada sea creado por uno mismo
+- se crea la aplicacion vite pero en vez de crearlo con react se crea con 
+vanilla
+
+npm create vite@latest
+
+npm install @vitejs/plugin-react -E
+
+npm init playwright@latest // para hacer testing
+
+

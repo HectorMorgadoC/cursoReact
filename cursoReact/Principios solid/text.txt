@@ -1,0 +1,27 @@
+SOLID
+Single responsibility principle(SRP) Principio de responsabilidad única 
+Open-closed principle(OCP) Principio abierto-cerrado 
+Liskov subtitution principle(LSP) Principio de sustitución de Liskov
+Interface segregation principle(ISP) Principio de segregación de interfaz
+Dependency inversion principle(DIP)  Principio de inversión de dependencias 
+
+SOLID
+Principio de responsabilidad única 
+- Cada clase debe tener una sola responsabilidad.
+- Un componente debe de tener una sola responsabilidad
+
+
+Principio abierto-cerrado 
+- las entidades deben estar abiertas para extender pero cerradas para modificar. 
+
+Principio de sustitución de Liskov
+- los objetos deben ser intercambiables , osea un objeto puede ser intecambiable con un objeto
+heredado
+
+Principio de segregación de interfaz
+- los clientes no deben de depender de interface que no necesitan(solo reciben la informacion
+ de lo que van hacer)
+
+Principio de inversión de dependencias 
+- las clases, funciones, componentes deben de depender mas de abstraciones que de 
+implementacion concretas
