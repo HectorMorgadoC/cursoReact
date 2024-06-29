@@ -35,7 +35,7 @@ html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
   line-height: 1.4;
-  max-width: 800px;
+  /*max-width: 800px;*/
   margin: 20px auto;
   padding: 0 10px;
   word-wrap: break-word;
@@ -890,15 +890,40 @@ body > footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 800px;
 }
 
 main {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 form {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.movies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.movie {
+  text-align: center;
+}
+
+.movie h3, .movie p {
+  padding-bottom: 0;
+}
+
+.movie img {
+  border-radius: 8px;
 }

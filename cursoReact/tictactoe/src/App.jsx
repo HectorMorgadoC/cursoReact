@@ -66,7 +66,7 @@ window.localStorage.setItem('turn',newTurn)
   el componente se renderiza , si no se le coloca dependencias este se ejecutara cada vez que se renderize
   el componente , de lo contrario se ejecutara cada vez que las dependencias se lo permitan
 
-  useEffect(callback que ejecuta el cidigo arbitario, arreglo donde van las dependencias (opcional))
+  useEffect(callback que ejecuta el codigo arbitario, arreglo donde van las dependencias (opcional))
 
   */
   useEffect(() => {

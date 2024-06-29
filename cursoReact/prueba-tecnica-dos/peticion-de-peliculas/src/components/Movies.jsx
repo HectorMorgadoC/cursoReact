@@ -4,10 +4,10 @@
 export function ListOfMOvies ({ movies }){
     // este componente esta dependiendo del contrato de la API
     return(
-        <ul>
+        <ul className="movies">
           {
             movies.map(movie => (
-              <li key={movie.id}>
+              <li className="movie" key={movie.id}>
                 <h3>{movie.title}</h3>
                 <p>{movie.year}</p>
                 <img src={movie.poster} alt={movie.Title} />
